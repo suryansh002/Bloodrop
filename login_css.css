@@ -1,0 +1,22 @@
+body{
+    /* background-color: rgb(36, 35, 35); */
+    background-color: rgb(53, 53, 53);
+}
+.label{
+    height: 400px;
+    width: 300px;
+    background-color: #e65f5f;
+    margin-left: 480px;
+    margin-top: 100px;
+    border: 2px;
+    border-radius: 20px;
+    border-style: outset;
+}
+.heading{
+    margin-left: 120px;
+    color:rgb(53, 53, 53);
+}
+#username-heading{
+    color:rgb(53, 53, 53) ;
+    margin-left: 10px;
+}
