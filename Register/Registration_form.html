@@ -24,6 +24,11 @@
 
     <!-- Main CSS-->
     <link href="css/main.css" rel="stylesheet" media="all">
+    <script>
+        function myFunc(){
+            window.alert("Details Submitted Successfully!")
+        }
+    </script>
 </head>
 
 <body>
@@ -34,7 +39,7 @@
                     <h2 class="title">Registration Form</h2>
                 </div>
                 <div class="card-body">
-                    <form method="POST">
+                    <form action="../index.html" onsubmit="myFunc()">
                         <div class="form-row m-b-55">
                             <div class="name">Name</div>
                             <div class="value">
@@ -317,7 +322,7 @@
                         </div>
                         
                             <button class="btn btn--radius-2 btn--red" type="submit">Register</button><br>
-                            <a class="txt2" href="../Bloodrop/index.html"><img src="back.png" height="10px" width="10px">&nbsp;<u>Back</u></a>
+                            <a class="txt2" href="../index.html"><img src="back.png" height="10px" width="10px">&nbsp;<u>Back</u></a>
                         </div>
                         
                     </form>
