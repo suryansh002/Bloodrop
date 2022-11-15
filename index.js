@@ -35,6 +35,9 @@ function register(){
       if(user){
           console.log('user is signed in', user);
           window.alert("You have been signed up successfully!")
+          if(window.location.href != "/"){
+            window.location='/index.html';
+        }
         }})
 
 }
@@ -66,6 +69,9 @@ function login() {
     if(user){
         console.log('user is signed in', user);
         window.alert("You have been signed in successfully!")
+        if(window.location.href != "/"){
+          window.location='/index.html';
+      }
       }})
   
 }
