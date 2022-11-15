@@ -68,7 +68,7 @@ function login() {
 
     if(user){
         console.log('user is signed in', user);
-        window.alert("You have been signed in successfully!")
+        window.alert("You have been logged in successfully!")
         if(window.location.href != "/"){
           window.location='/index.html';
       }
