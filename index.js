@@ -36,7 +36,7 @@ function register(){
           console.log('user is signed in', user);
           window.alert("You have been signed up successfully!")
           if(window.location.href != "/"){
-            window.location='/index.html';
+            window.location='Bloodrop/index.html';
         }
         }})
 
@@ -70,7 +70,7 @@ function login() {
         console.log('user is signed in', user);
         window.alert("You have been logged in successfully!")
         if(window.location.href != "/"){
-          window.location='/index.html';
+          window.location='Bloodrop/index.html';
       }
       }})
   
